@@ -1,0 +1,124 @@
+.heading {
+	background: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	border:1px solid #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	padding: 0 5px;
+	text-shadow: 1px 1px 0px white;
+	margin:20px 0;
+}
+
+/* Navigation */
+nav ul,
+nav ul li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul li {
+	float:left;
+}
+
+nav li a {
+	display:block;
+	text-decoration:none;
+}
+
+nav ul li ul {
+	display:none;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul {
+	float:left;
+	position:absolute;
+}
+
+nav ul li ul li {
+	clear:both;
+	width:100%;
+}
+
+/*Buttons*/
+a.button {
+	display:inline-block;
+	margin:5px 0;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+	border-radius: 3px;
+	-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-o-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+}
+
+a.button.blue {
+	background:#3366FF;
+}
+
+a:hover.button.blue {
+	background:#2E5CE6;
+}
+
+a:active.button.blue {
+	background:#3366FF;
+}
+
+a.button.red {
+	background:#FF0000;
+}
+
+a:hover.button.red {
+	background:#E60000;
+}
+
+a:active.button.red {
+	background:#FF0000;
+}
+
+a.button.green {
+	background:#00FF00;
+}
+
+a:hover.button.green {
+	background:#00E600;
+}
+
+a:active.button.green {
+	background:#00FF00;
+}
+
+a.button.white {
+	background:#FFF;
+	color:#888;
+}
+
+a:hover.button.white {
+	background:#EFEFEF;
+	color:#333;
+}
+
+a:active.button.white {
+	background:#FFF;
+	color:#333;
+}
+
+a.button.black {
+	background:#000;
+}
+
+a:hover.button.black {
+	background:#333;
+}
+
+a:active.button.black {
+	background:#000;
+}

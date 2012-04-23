@@ -1,0 +1,134 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('ui.css');
+
+
+/*
+ * Global Styles
+ */
+
+* {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+body {
+	background:#eee;
+}
+
+img {
+	width:100%;
+}
+
+hr {
+	margin:15px 0;
+	border-style: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#wrapper {
+	max-width:1024px;
+	margin:20px auto;
+	background:rgba(255,255,255,.1);
+	padding: 20px;
+	border-radius:3px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/*
+ * Header
+ */
+
+header,
+nav {
+	width:100%;
+}
+
+nav {
+	background:#3366FF;
+	display:inline-block;
+	border-radius:3px;
+	-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-o-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+}
+
+nav a {
+	padding:10px 20px;
+	color:#fff;
+	background:#3366FF;
+	border-radius:3px;
+}
+
+nav a:hover {
+	background:#2E5CE6;
+}
+
+nav ul li ul {
+	background:#3366FF;
+	border-radius:3px;
+	-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	-o-box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+}
+
+
+/*
+ * Main Content
+ */
+#main {
+	width:100%;
+}
+
+.img-test {
+	width:50%;
+	margin:0 auto;
+}
+
+/*
+ * Media Queries
+ */
+
+@media screen and (min-width: 1024px) {
+  
+	
+
+}
+
+@media screen and (max-width: 1023px) {
+  
+	#wrapper {
+		margin:0 auto;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+  
+	.img-test {
+		width:75%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+  	#wrapper {
+  		padding:5px;
+  	}
+  	
+	.img-test {
+		width:100%;
+	}
+
+}
