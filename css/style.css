@@ -112,10 +112,6 @@ nav ul li ul {
 
 @media screen and (max-width: 1023px) {
   
-	.git-badge {
-  		display: none;
-  	}
-  	
   	#wrapper {
   		margin: 0;
   	}
